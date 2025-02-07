@@ -133,9 +133,13 @@ img {
    @media screen and (max-width: 1160px) {
 
     .container {
-        width: 100%;
+        max-width: 100%;
         margin: 0 auto;
         padding: 0 20px;
+    }
+
+    img {
+        max-width: 100%;
     }
 
   } 
@@ -148,9 +152,13 @@ img {
  @media screen and (max-width: 768px) {
 
     .container {
-        width: 100%;
+        max-width: 100%;
         margin: 0 auto;
         padding: 0 20px;
+    }
+
+    img {
+        max-width: 100%;
     }
 
  }
@@ -160,9 +168,13 @@ img {
  @media screen and (max-width: 480px) {
 
     .container {
-        width: 100%;
+        max-width: 100%;
         margin: 0 auto;
         padding: 20px 20px;
+    }
+
+    img {
+        max-width: 100%;
     }
 
     .col {
