@@ -141,3 +141,69 @@ img {
     }
    
  }
+
+ /* soluzione per telefoni */
+
+ @media screen and (max-width: 480px) {
+
+    .container {
+        max-width: 480px;
+        margin: 0 auto;
+        padding: 20px 20px;
+    }
+
+    .col {
+        padding: 20px 0;
+    }
+    
+    .row {
+        flex-direction: column;
+    }
+
+    .why-us{
+        background-color: black;
+    }
+
+    .why-us {
+        margin-bottom: 0;
+    }
+
+    .text-center {
+        text-align: center;
+        
+    }
+
+    h2 {
+        margin-bottom: 2.5rem;
+        font-size: 2.5rem;
+        color: #fffffe;
+    }
+
+    .steps {
+        margin: 0px 0px;
+        padding: 3rem 0;
+        color: #232946;
+        background: #eebbc3;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+    
+    .why-us .col-right {
+        width: 100%;
+    }
+
+
+
+
+ }
+
