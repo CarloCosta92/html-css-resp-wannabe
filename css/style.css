@@ -128,6 +128,21 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+  /* bonus */
+
+   @media screen and (max-width: 1160px) {
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+  } 
+
+
+ 
+ 
  /* soluzione responsive per tablet */
 
  @media screen and (max-width: 768px) {
@@ -200,4 +215,8 @@ img {
     }
 
  }
+
+ /* bonus */
+
+
 
