@@ -132,14 +132,12 @@ img {
 
  @media screen and (max-width: 768px) {
 
-
-
     .container {
-        max-width: 768px;
+        width: 100%;
         margin: 0 auto;
         padding: 0 20px;
     }
-   
+
  }
 
  /* soluzione per telefoni */
@@ -147,7 +145,7 @@ img {
  @media screen and (max-width: 480px) {
 
     .container {
-        max-width: 480px;
+        width: 100%;
         margin: 0 auto;
         padding: 20px 20px;
     }
@@ -161,7 +159,7 @@ img {
     }
 
     .why-us{
-        background-color: black;
+        background-color: #222222;
     }
 
     .why-us {
@@ -169,8 +167,7 @@ img {
     }
 
     .text-center {
-        text-align: center;
-        
+        text-align: center;  
     }
 
     h2 {
@@ -183,7 +180,7 @@ img {
         margin: 0px 0px;
         padding: 3rem 0;
         color: #232946;
-        background: #eebbc3;
+        background-color: #eebbc3;
     }
 
     .lessons .col {
@@ -201,9 +198,6 @@ img {
     .why-us .col-right {
         width: 100%;
     }
-
-
-
 
  }
 
